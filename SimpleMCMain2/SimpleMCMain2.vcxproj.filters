@@ -18,9 +18,18 @@
     <ClCompile Include="SimpleMCMain2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\_sources\PayOff1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_sources\SimpleMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\_headers\PayOff1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_headers\SimpleMC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

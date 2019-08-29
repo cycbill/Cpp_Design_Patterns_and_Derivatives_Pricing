@@ -4,8 +4,13 @@
 class PayOff
 {
 public:
-	enum Option {call, put};
-	PayOff(double Strike_, OptionType, The)
+	enum OptionType {call, put};
+	PayOff(double Strike_, OptionType TheOptionsType_);
+	double operator()(double Spot) const;
+
+private:
+	double Strike;
+	OptionType TheOptionsType;
 };
 
 #endif // !PAYOFF_H

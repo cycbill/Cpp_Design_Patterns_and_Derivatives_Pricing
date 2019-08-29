@@ -115,10 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\_sources\PayOff1.cpp" />
+    <ClCompile Include="..\_sources\SimpleMC.cpp" />
     <ClCompile Include="SimpleMCMain2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\_headers\PayOff1.h" />
+    <ClInclude Include="..\_headers\SimpleMC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
