@@ -2,7 +2,7 @@
 #include "../_headers/Random1.h"
 #include <cmath>
 
-double SimpleMonteCarlo2(const PayOff& thePayoff,
+double SimpleMonteCarlo2(const PayOff& thePayOff,
 	double Expiry,
 	double Spot,
 	double Vol,
