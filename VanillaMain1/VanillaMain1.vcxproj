@@ -18,21 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\_sources\PayOff2.cpp" />
-    <ClCompile Include="..\_sources\Random1.cpp" />
-    <ClCompile Include="..\_sources\SimpleMC2.cpp" />
-    <ClCompile Include="SimpleMCMain3.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\_headers\PayOff2.h" />
-    <ClInclude Include="..\_headers\Random1.h" />
-    <ClInclude Include="..\_headers\SimpleMC2.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{AF153BEB-C602-4C7E-94AB-4F535D6007B7}</ProjectGuid>
-    <RootNamespace>SimpleMCMain3</RootNamespace>
+    <ProjectGuid>{06E12FCA-FD6D-493C-8544-420A9F022598}</ProjectGuid>
+    <RootNamespace>VanillaMain1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -125,6 +114,21 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_headers\DoubleDigital.h" />
+    <ClInclude Include="..\_headers\PayOff2.h" />
+    <ClInclude Include="..\_headers\Random1.h" />
+    <ClInclude Include="..\_headers\SimpleMC3.h" />
+    <ClInclude Include="..\_headers\Vanilla1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\_sources\DoubleDigital.cpp" />
+    <ClCompile Include="..\_sources\PayOff2.cpp" />
+    <ClCompile Include="..\_sources\Random1.cpp" />
+    <ClCompile Include="..\_sources\SimpleMC3.cpp" />
+    <ClCompile Include="..\_sources\Vanilla1.cpp" />
+    <ClCompile Include="VanillaMain1.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

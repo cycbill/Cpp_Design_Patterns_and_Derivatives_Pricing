@@ -28,6 +28,6 @@ public:
 	virtual ~PayOffPut() {}
 private:
 	double Strike;
-}
+};
 
 #endif // !PAYOFF2_H
