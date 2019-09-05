@@ -27,6 +27,9 @@
     <ClInclude Include="..\_headers\Random1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\_headers\DoubleDigital2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\_sources\PayOff3.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VanillaMain2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_sources\DoubleDigital2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

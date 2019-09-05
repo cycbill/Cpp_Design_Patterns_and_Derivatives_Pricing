@@ -115,12 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\_headers\DoubleDigital2.h" />
     <ClInclude Include="..\_headers\PayOff3.h" />
     <ClInclude Include="..\_headers\Random1.h" />
     <ClInclude Include="..\_headers\SimpleMC4.h" />
     <ClInclude Include="..\_headers\Vanilla2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\_sources\DoubleDigital2.cpp" />
     <ClCompile Include="..\_sources\PayOff3.cpp" />
     <ClCompile Include="..\_sources\Random1.cpp" />
     <ClCompile Include="..\_sources\SimpleMC4.cpp" />
