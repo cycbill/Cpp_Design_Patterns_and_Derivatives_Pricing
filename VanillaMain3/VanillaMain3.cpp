@@ -5,8 +5,8 @@ requires PayOff3.cpp,
 		Vanilla2.cpp
 */
 
-#include "../_headers/SimpleMC4.h"
-#include "../_headers/Vanilla2.h"
+#include "../_headers/SimpleMC5.h"
+#include "../_headers/Vanilla3.h"
 #include <iostream>
 
 int main()

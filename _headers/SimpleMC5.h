@@ -1,7 +1,7 @@
-#ifndef SIMPLEMC4_H
-#define SIMPLEMC4_H
+#ifndef SIMPLEMC5_H
+#define SIMPLEMC5_H
 
-#include "../_headers/Vanilla2.h"
+#include "../_headers/Vanilla3.h"
 
 double SimpleMonteCarlo3(const VanillaOption& TheOption,
 	double Spot,
@@ -9,4 +9,4 @@ double SimpleMonteCarlo3(const VanillaOption& TheOption,
 	double r,
 	unsigned long NumberOfPaths);
 
-#endif // !SIMPLEMC4_H
+#endif // !SIMPLEMC5_H
