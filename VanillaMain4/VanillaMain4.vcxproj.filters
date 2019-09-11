@@ -30,6 +30,9 @@
     <ClInclude Include="..\_headers\Parameters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\_headers\SimpleMC6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\_sources\PayOff3.cpp">
@@ -45,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\_sources\Parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_sources\SimpleMC6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

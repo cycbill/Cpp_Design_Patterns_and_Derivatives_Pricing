@@ -119,6 +119,7 @@
     <ClInclude Include="..\_headers\PayOff3.h" />
     <ClInclude Include="..\_headers\PayOffBridge.h" />
     <ClInclude Include="..\_headers\Random1.h" />
+    <ClInclude Include="..\_headers\SimpleMC6.h" />
     <ClInclude Include="..\_headers\Vanilla3.h" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +127,7 @@
     <ClCompile Include="..\_sources\PayOff3.cpp" />
     <ClCompile Include="..\_sources\PayOffBridge.cpp" />
     <ClCompile Include="..\_sources\Random1.cpp" />
+    <ClCompile Include="..\_sources\SimpleMC6.cpp" />
     <ClCompile Include="..\_sources\Vanilla3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
