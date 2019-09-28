@@ -15,26 +15,38 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\_headers\MCStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_headers\SimpleMC7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\_headers\PayOff3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\_headers\PayOffBridge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\_headers\Random1.h">
+    <ClInclude Include="..\_headers\Parameters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\_headers\Vanilla3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\_headers\Parameters.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\_headers\SimpleMC6.h">
+    <ClInclude Include="..\_headers\Random1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\_sources\MCStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_sources\SimpleMC7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_sources\Parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\_sources\PayOff3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -47,13 +59,7 @@
     <ClCompile Include="..\_sources\Vanilla3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\_sources\Parameters.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\_sources\SimpleMC6.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VanillaMain4.cpp">
+    <ClCompile Include="StatsMain1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
