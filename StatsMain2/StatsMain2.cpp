@@ -12,6 +12,7 @@ uses source files
 #include "../_headers/SimpleMC7.h"
 #include "../_headers/Vanilla3.h"
 #include "../_headers/MCStatistics.h"
+#include "../_headers/ConvergenceTable.h"
 #include <iostream>
 
 int main()
@@ -37,10 +38,11 @@ int main()
 	ParametersConstant rParam(r);
 
 	StatisticsMean gatherer;
+	ConvergenceTable gathererTwo(gatherer);
 
-	SimpleMonteCarlo5(theOption, Spot, VolParam, rParam, NumberOfPaths, gatherer);
+	SimpleMonteCarlo5(theOption, Spot, VolParam, rParam, NumberOfPaths, gathererTwo);
 
-	std::vector<std::vector<double> > results = gatherer.GetResultsSoFar();
+	std::vector<std::vector<double> > results = gathererTwo.GetResultsSoFar();
 
 	std::cout << "\nFor the call price the results are \n";
 

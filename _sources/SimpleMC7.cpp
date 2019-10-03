@@ -4,8 +4,8 @@
 
 void SimpleMonteCarlo5(const VanillaOption& TheOption,
 	double Spot,
-	Parameters& Vol,
-	Parameters& r,
+	const Parameters& Vol,
+	const Parameters& r,
 	unsigned long NumberOfPaths,
 	StatisticsMC& gatherer)
 {
